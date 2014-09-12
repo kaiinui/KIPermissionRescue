@@ -3,6 +3,17 @@ KIPermissionRescue
 
 [iOS] Provide users a guide to give the missing permission.
 
+Usage
+---
+
+On 
+
+```objc
+[KIPermissionRescue enableLocation:KIPermissionRescueOptionRequired];
+
+[KIPermissionRescue enablePhotoLibrary:KIPermissionRescueOptionOptional]
+```
+
 Designdoc
 ===
 
